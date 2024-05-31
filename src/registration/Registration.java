@@ -185,7 +185,7 @@ public class Registration extends JFrame implements ActionListener{
                     favoritePlace = rs.getString(5);
                     details = rs.getString(6);
                     
-                    pw.write("id: " + id + " " + "|" +"name: " + name + " " + "|"  + "gender: " + gender + " " + "|" + "interest: " + interest + " " + "|" + "favoritePlace: "+ favoritePlace + " " + "|" + "details: " + details + "\n");
+                    pw.write("id: " + id + " " + " | " +"name: " + name + " " + " | "  + "gender: " + gender + " " + " | " + "interest: " + interest + " " + " | " + "favoritePlace: "+ favoritePlace + " " + " | " + "details: " + details + "\n");
                 }
                 
                 if(sql<1){
